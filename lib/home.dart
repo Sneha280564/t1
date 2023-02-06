@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
       body: Container(
         width: MediaQuery.of(context).size.width,
         child: Column(
-          // mainAxisAlignment: MainAxisAlignment.,
+          mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text("Types of Button",
